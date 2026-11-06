@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "e59070e0-dae4-46ec-8b5a-75d76543010f",
+      "name": "Deric",
+      "email": "dericsithole@gmail.com",
+      "passwordSalt": "be9b89d2cac1fb10bc53524034670c24",
+      "passwordHash": "c0a440ec2a50f0973b83a69fbc110f1c75115dabc0c2ccec70528a877938a671",
+      "createdAt": "2026-11-04T14:18:01.077Z"
+    },
+    {
+      "id": "b2f0d4f0-5d49-4088-85d8-d1648c241877",
+      "name": "codza",
+      "email": "collenhondo1@gmail.com",
+      "passwordSalt": "40d7075bf3b10912e3de62625e8a87dd",
+      "passwordHash": "fd2207aaee743da9b96c49eceac838a21e9444ecc252ae9c9f4d945bbff78c81",
+      "createdAt": "2026-11-04T14:20:00.467Z"
+    },
+    {
+      "id": "e93ec50a-cefb-4838-bf4d-03df30047ee9",
+      "name": "Deric",
+      "email": "dericsithole46@gmail.com",
+      "passwordSalt": "44c6fe621227ffb3caaae5ef7910f019",
+      "passwordHash": "6d9b42f6fb1d6dc67b81d573571dca3edaee6c11a4b9f259a692444365ad35ed",
+      "createdAt": "2026-11-04T14:25:52.040Z"
+    },
+    {
+      "id": "50d84946-c230-4f20-b9d0-e3fccd4d3b50",
+      "name": "Collen",
+      "email": "collenhondo4@gmail.com",
+      "passwordSalt": "8b14b50ca86a5c90a545aced9d82c70e",
+      "passwordHash": "9245a3e33369c2616407b6a1b95d97b8152bd5dcc29c8d73b197fa2a7d91bf46",
+      "createdAt": "2026-11-04T14:27:39.805Z"
+    }
+  ],
+  "requests": [
+    {
+      "id": "c72ca082-90ea-4550-a890-4b72831e34b1",
+      "userId": "e93ec50a-cefb-4838-bf4d-03df30047ee9",
+      "type": "card",
+      "status": "received",
+      "createdAt": "2026-11-04T21:51:44.167Z",
+      "product": "debit"
+    }
+  ]
+}

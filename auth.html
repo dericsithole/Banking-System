@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#144f42">
+  <title>Sign in | Mega Bank Sandbox</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/auth.js" defer></script>
+</head>
+<body>
+  <div class="auth-page">
+    <aside class="auth-aside">
+      <a class="brand" href="/auth.html"><span class="brand-mark">M</span> Mega Bank</a>
+      <div><h1>Your money, in good order.</h1><p>A private banking sandbox. Create an account to see your own accounts and activity.</p></div>
+      <p class="help-text">Sandbox only. No real money is held or transferred.</p>
+    </aside>
+    <main class="auth-form-wrap">
+      <section class="auth-form" aria-labelledby="form-title">
+        <div class="auth-switch" role="tablist" aria-label="Account access">
+          <button type="button" class="active" id="login-tab" role="tab" aria-selected="true">Sign in</button>
+          <button type="button" id="register-tab" role="tab" aria-selected="false">Create account</button>
+        </div>
+        <h2 id="form-title">Welcome back</h2>
+        <p id="form-description">Sign in to your Mega Bank sandbox account.</p>
+        <div class="notice" id="auth-notice" role="status"></div>
+        <form id="auth-form">
+          <div class="field" id="name-field" hidden><label for="name">Your name</label><input id="name" name="name" autocomplete="name" maxlength="70"></div>
+          <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" maxlength="254" required></div>
+          <div class="field"><label for="password">Password</label><div class="password-control"><input id="password" name="password" type="password" autocomplete="current-password" minlength="12" maxlength="128" required><button class="password-toggle" id="password-toggle" type="button" aria-controls="password" aria-pressed="false">Show</button></div><small class="help-text" id="password-help" hidden>Use at least 12 characters.</small></div>
+          <button class="button auth-submit" type="submit" id="submit-button">Sign in</button>
+        </form>
+        <div class="auth-footer">Use an email and password you register here. Never enter real bank credentials.</div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
